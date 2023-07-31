@@ -16,12 +16,17 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <FileAlignment>512</FileAlignment>
     <DebugType>embedded</DebugType>
+    <ApplicationIcon>intersect-logo-qu.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
       <_Parameter1>Intersect.Tests.Client</_Parameter1>
     </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="intersect-logo-qu.ico" />
   </ItemGroup>
 
   <ItemGroup>
